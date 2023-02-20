@@ -1,0 +1,74 @@
+.assign-3-shape-1,
+.assign-3-shape-2,
+.assign-3-shape-3,
+.assign-3-shape-4 {
+    width: 400px;
+    height: 400px;
+    background-color: #ddd;
+    background-image: url(../imges/css-assignment-5-8.png);
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.assign-3-shape-2 {
+    background-repeat: repeat-y;
+    background-position: right;
+}
+.assign-3-shape-3 {
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+.assign-3-shape-4 {
+    background-repeat: repeat;
+}
+
+
+.shape-1,
+.shape-2,
+.shape-3 {
+    padding: 30px 50px;
+    background-color: #ddd;
+    display: inline-block;
+    margin: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.shape-1 {
+    border: 10px red solid;
+    outline: 10px black solid;
+}
+.shape-2 {
+    border-left: 10px green solid;
+    border-right: 10px green solid;
+    border-top: 10px blue solid;
+    border-bottom: 10px blue solid;
+    outline: 10px black solid;
+}
+.shape-3 {
+    border-left: 10px yellow dashed;
+    border-right: 10px green dashed;
+    border-top: 10px red dashed;
+    border-bottom: 10px blue dashed;
+    outline: 10px black solid;
+}
+
+
+.test-div-one,
+.test-div-two,
+.test-div-three {
+    background-color: #ddd;
+    margin: 15px auto;
+    width: 400px;
+    padding: 15px;
+}
+.test-div-one {
+    border-left: 5px sandybrown solid;
+}
+.test-div-two {
+    visibility: hidden;
+}
+.test-div-three {
+    border-left: 5px teal solid;
+}
